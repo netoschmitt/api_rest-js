@@ -4,20 +4,34 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1",
     "sucrase": "^3.21.0"
   },
   "dependencies": {
-    "express": "^4.17.3"
-  }
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mariadb": "^3.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netoschmitt/api_rest-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netoschmitt/api_rest-js/issues"
+  },
+  "homepage": "https://github.com/netoschmitt/api_rest-js#readme",
+  "description": ""
 }
