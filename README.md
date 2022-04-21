@@ -1,2 +1,5 @@
 # api_rest-js
-### express, bcrypt js, em desenvolvimento....
+## base de dados MySql_Workbench/ MariaDB
+## servidor Google cloud Platform
+## utilizando Docker Community Edition. 
+## express, bcript js
