@@ -51,7 +51,9 @@ class UserController {
       const { id, nome, email } = novosDados;
       return res.json(id, nome, email);
     } catch (e) {
-      return res.json(null);
+      return res.status(400).json({
+        errors: e.errors.map((err) => err.message),
+      });
     }
   }
 
